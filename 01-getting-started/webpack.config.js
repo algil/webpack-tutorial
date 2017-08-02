@@ -7,9 +7,8 @@ const PATHS = {
 };
 
 module.exports = {
-  // If a file name is not specified, index.js will be resolved by default
   entry: {
-    app: PATHS.app,
+    app: PATHS.app, // If a file name is not specified, index.js will be resolved by default
   },
   output: {
     path: PATHS.build,
