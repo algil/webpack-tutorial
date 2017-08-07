@@ -1,0 +1,23 @@
+{
+  "name": "03-linting-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint --format 'node_modules/eslint-friendly-formatter' app/ webpack.*.js --cache",
+    "start": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --env development\"",
+    "build": "webpack --env production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "html-webpack-plugin": "^2.30.1",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
