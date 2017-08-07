@@ -8,5 +8,7 @@ https://survivejs.com/webpack/developing/linting/
 `npm start`
 
 ## Build
-
 `npm run build`
+
+## Lint
+`npm run lint:js`
