@@ -1,0 +1,31 @@
+{
+  "name": "05-loading-styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint --format 'node_modules/eslint-friendly-formatter' app/ webpack.*.js --cache",
+    "start": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --env development\"",
+    "build": "webpack --env production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "eslint": "^4.4.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.1",
+    "webpack-dev-server": "^2.6.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "bulma": "^0.5.1"
+  }
+}

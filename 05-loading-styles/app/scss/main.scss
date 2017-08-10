@@ -1,0 +1,6 @@
+@import "variables";
+@import "~bulma/bulma";
+
+div {
+    color: $white-ter; //Using bulma variable
+}
